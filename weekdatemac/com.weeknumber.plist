@@ -7,7 +7,7 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Library/Frameworks/Python.framework/Versions/3.13/bin/python3</string>
+        <string>~/Library/Frameworks/Python.framework/Versions/3.13/bin/python3</string>
         <string>~/scripts/weekdatemac/weekdatemac/week_menu_bar.py</string>
     </array>
 
