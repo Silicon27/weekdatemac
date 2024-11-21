@@ -11,20 +11,20 @@ git clone https://github.com/Silicon27/weekdatemac
 cd weekdatemac/weekdatemac
 ```
 
-Then run the script:
+Then install the dependencies:
 ```bash
-python3 week_menu_bar.py
+pip3 install pyobjc
 ```
 
 Move it to `~/Library/LaunchAgents/`
 ```bash
-mv com.weekmenubar.plist ~/Library/LaunchAgents/
+mv com.weeknumber.plist ~/Library/LaunchAgents/
 ```
 
 Then you can add it to your Launch Agent with `launchctl` and run it:
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.weekmenubar.plist && \
-launchctl load ~/Library/LaunchAgents/com.weekmenubar.plist
+launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist && \
+launchctl load ~/Library/LaunchAgents/com.weeknumber.plist
 ```
 
 And that's it! You should see the week number in your menu bar.
