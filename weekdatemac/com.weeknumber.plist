@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.weeknumber.plist</string>
+    <string>com.weeknumber</string>
 
     <key>ProgramArguments</key>
     <array>
-        <string>~/Library/Frameworks/Python.framework/Versions/3.13/bin/python3</string>
-        <string>~/scripts/weekdatemac/weekdatemac/week_menu_bar.py</string>
+        <string>/usr/bin/env</string>
+        <string>python3</string>
+        <string>scripts/weekdatemac/weekdatemac/week_menu_bar.py</string>
     </array>
+
+    <key>WorkingDirectory</key>
+    <string>~/</string> <!-- User's home directory -->
 
     <key>RunAtLoad</key>
     <true/>
 
     <key>KeepAlive</key>
-    <true/>
-
-    <!-- Prevent Dock icon by setting LSUIElement to true -->
-    <key>LSUIElement</key>
     <true/>
 </dict>
 </plist>
