@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.silicon.weekmenubar</string>
+    <string>com.weeknumber.plist</string>
 
     <key>ProgramArguments</key>
     <array>
