@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Label for the service -->
+    <key>Label</key>
+    <string>com.user.weekdatemac</string>
+
+    <!-- Program to execute -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/env</string>
+        <string>python3</string>
+        <string>/Users/$USER/weekdatemac/weekdatemac/week_menu_bar.py</string>
+    </array>
+
+    <!-- Keep the process alive -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- Run at load -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Standard output and error logs -->
+    <key>StandardOutPath</key>
+    <string>/tmp/weekdatemac.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/weekdatemac.err</string>
+</dict>
+</plist>

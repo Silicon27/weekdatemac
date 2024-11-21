@@ -5,6 +5,11 @@ What week is it? This is a simple Python script that tells you what week of the 
 This is the MacOS implementation of the script.
 
 ## Setup
+pre setup:
+```bash
+cd ~/
+```
+
 First, clone and navigate to the repository:
 ```bash
 git clone https://github.com/Silicon27/weekdatemac
@@ -18,13 +23,13 @@ pip3 install pyobjc
 
 Move it to `~/Library/LaunchAgents/`
 ```bash
-mv com.weeknumber.plist ~/Library/LaunchAgents/
+mv com.user.weekdatemac.plist ~/Library/LaunchAgents/
 ```
 
 Then you can add it to your Launch Agent with `launchctl` and run it:
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist
-launchctl load ~/Library/LaunchAgents/com.weeknumber.plist
+launchctl unload ~/Library/LaunchAgents/com.user.weekdatemac.plist
+launchctl load ~/Library/LaunchAgents/com.user.weekdatemac.plist
 ```
 
 And that's it! You should see the week number in your menu bar.
