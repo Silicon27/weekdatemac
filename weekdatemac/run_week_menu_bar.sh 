@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Run the Python script without showing it in the dock
-/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/silicon/Scripts/week_menu_bar.py &
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /week_menu_bar.py &
