@@ -11,9 +11,9 @@ git clone https://github.com/Silicon27/weekdatemac
 cd weekdatemac/weekdatemac
 ```
 
-Make it executable:
+Then run the script:
 ```bash
-chmod +x run_week_menu_bar.sh
+python3 week_menu_bar.py
 ```
 
 Move it to `~/Library/LaunchAgents/`

@@ -1,3 +1,4 @@
+from obj import Foundation, AppKit
 from datetime import datetime
 from Foundation import NSObject, NSBundle, NSTimer
 from AppKit import NSApplication, NSStatusBar, NSVariableStatusItemLength, NSMenu, NSMenuItem

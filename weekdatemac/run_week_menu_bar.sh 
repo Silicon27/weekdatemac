@@ -1,4 +1,0 @@
-#!/bin/bash
-current_dir=$(pwd)
-# Run the Python script without showing it in the dock
-/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 "$current_dir"/week_menu_bar.py &
