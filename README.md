@@ -23,7 +23,11 @@ mv com.weekmenubar.plist ~/Library/LaunchAgents/
 
 Then you can add it to your Launch Agent with `launchctl` and run it:
 ```bash
+launchctl unload ~/Library/LaunchAgents/com.weekmenubar.plist && \
 launchctl load ~/Library/LaunchAgents/com.weekmenubar.plist
-launchctl list | grep com.weekmenubar
 ```
 
+And that's it! You should see the week number in your menu bar.
+
+An example would look like this: 
+![Week Date Mac](/demo.png)
