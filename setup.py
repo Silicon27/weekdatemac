@@ -11,7 +11,7 @@ class CustomInstall(install):
 
 setup(
     name='weekdatemac',
-    version='1.0.0',
+    version='1.0.1',
     packages=['weekdatemac'],
     cmdclass={'install': CustomInstall},
     install_requires=[],  # List of Python dependencies (if any)
