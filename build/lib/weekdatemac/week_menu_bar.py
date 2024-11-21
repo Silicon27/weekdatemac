@@ -3,7 +3,7 @@ from Foundation import NSObject, NSBundle, NSTimer
 from AppKit import NSApplication, NSStatusBar, NSVariableStatusItemLength, NSMenu, NSMenuItem
 
 app = NSApplication.sharedApplication()
-app.setActivationPolicy_(2)  # 2 means NSApplicationActivationPolicyProhibited, which hides the app in $
+app.setActivationPolicy_(2)  # 2 means NSApplicationActivationPolicyProhibited, which hides the app from the Dock
 
 class MenuBarApp(NSObject):
     def applicationDidFinishLaunching_(self, notification):

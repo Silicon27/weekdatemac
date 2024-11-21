@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: weekdatemac
-Version: 1.0.1
+Version: 1.0.2
 Summary: A macOS script to display the current week number in the menu bar.
 Home-page: https://github.com/Silicon27/weekdatemac
 Author: Yang Silicon
@@ -21,7 +21,7 @@ This is the MacOS implementation of the script.
 First, clone and navigate to the repository:
 ```bash
 git clone https://github.com/Silicon27/weekdatemac
-cd weekdatemac
+cd weekdatemac/weekdatemac
 ```
 
 Make it executable:

@@ -8,7 +8,7 @@ This is the MacOS implementation of the script.
 First, clone and navigate to the repository:
 ```bash
 git clone https://github.com/Silicon27/weekdatemac
-cd weekdatemac
+cd weekdatemac/weekdatemac
 ```
 
 Make it executable:
