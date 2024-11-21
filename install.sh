@@ -10,7 +10,7 @@ chmod +x run_week_menu_bar.sh
 mv com.weeknumber.plist ~/Library/LaunchAgents/
 
 # Load the plist with launchctl
-launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist && \
+launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist
 launchctl load ~/Library/LaunchAgents/com.weeknumber.plist
 
 echo "Installation complete! The week number should now appear in your menu bar."
