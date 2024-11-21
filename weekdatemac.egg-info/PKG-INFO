@@ -36,7 +36,7 @@ mv com.weeknumber.plist ~/Library/LaunchAgents/
 
 Then you can add it to your Launch Agent with `launchctl` and run it:
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist && \
+launchctl unload ~/Library/LaunchAgents/com.weeknumber.plist
 launchctl load ~/Library/LaunchAgents/com.weeknumber.plist
 ```
 
