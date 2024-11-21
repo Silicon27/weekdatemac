@@ -1,4 +1,4 @@
-from obj import Foundation, AppKit
+import objc
 from datetime import datetime
 from Foundation import NSObject, NSBundle, NSTimer
 from AppKit import NSApplication, NSStatusBar, NSVariableStatusItemLength, NSMenu, NSMenuItem
@@ -32,7 +32,6 @@ class MenuBarApp(NSObject):
 
 
 if __name__ == "__main__":
-    app = NSApplication.sharedApplication()
     delegate = MenuBarApp.alloc().init()
     app.setDelegate_(delegate)
     app.run()
