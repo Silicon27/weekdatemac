@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+install.sh
+setup.py
+weekdatemac/__init__.py
+weekdatemac/week_menu_bar.py
+weekdatemac.egg-info/PKG-INFO
+weekdatemac.egg-info/SOURCES.txt
+weekdatemac.egg-info/dependency_links.txt
+weekdatemac.egg-info/top_level.txt
